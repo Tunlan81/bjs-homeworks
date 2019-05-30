@@ -65,7 +65,7 @@ function getGreeting(name) {
     //return greeting;
 
     if (name == '' || name == null || name == undefined) {
-        name = 'Аноним'
+        name = 'Аноним';
     }
     let greeting = `Привет, мир! Меня зовут ${name}`;
     console.log(greeting);
